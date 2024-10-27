@@ -44,9 +44,9 @@ contains
                 drops(p)%velocity(i) = 5.0_pr
             end do
 
-            ! Generate a random radius within the range [1.0e-6, 1.0e-3]
+            ! Generate a random radius within the range [1.0e-3, 1.0e-2]
             call random_number(radius_rand)
-            drops(p)%radius = 1.0e-6 + radius_rand * (1.0e-3 - 1.0e-6)
+            drops(p)%radius = 1.0e-3 + radius_rand * (1.0e-2 - 1.0e-3)
 
             ! Compute the particle mass based on its radius (assuming spherical volume)
             radius = drops(p)%radius
