@@ -1,0 +1,27 @@
+#This file gather all the necessary parameters of the simulation
+#Objectiv : Make a C file link to the GUI to right all the parameters
+
+rp = 0.0
+Dv = 0.0
+Mw = 0.0
+pv_sat = 0.0
+Rg = 0.0
+T_air = 0.0
+Q_rh = 0.0
+Lv = 0.0
+Gamma_p = 0.0
+rhop_w = 0.0
+m_s = 0.0
+Ms= 0.0
+Ions = 0.0
+Phi_s = 0.0
+fv = 0.0
+fh = 0.0
+alpha_c = 0.0
+alpha_T = 0.0
+Delta_v = 0.0
+Delta_T = 0.0
+Ma = 0.0
+rho_a = 0.0
+c_pa = 0.0
+ka = 0.0
