@@ -38,6 +38,7 @@ contains
             do p=1,nb_drops  
                 
                 !Time step comutation for each particles at each time step
+                !! prenre taup = taué
                 NM%time_step = NM%cfl * drops_n(p)%mass / (6*pi*drops_n(p)%radius*dyn_viscosity)
                 dt = NM%time_step
                 print*, 'dt:', dt
